@@ -66,7 +66,10 @@ The **Karolinska Directed Emotional Faces** database contains 490 high-quality c
 
 ## 📊 Confusion Matrix
 
+The confusion matrix below illustrates the model's performance in classifying each emotion category.
+
 ![Confusion Matrix](./docs/confusion_matrix.png)
+
 
 - Most correctly predicted class: **Happy**
 - Most confused classes: **Fear ↔ Surprise**, **Sad ↔ Neutral**
