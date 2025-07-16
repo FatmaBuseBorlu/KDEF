@@ -2,7 +2,7 @@
 
 This project presents a deep learning-based solution to the problem of facial expression recognition using the **Karolinska Directed Emotional Faces (KDEF)** dataset. Seven basic human emotions (Happy, Sad, Angry, Disgusted, Surprised, Fearful, and Neutral) are classified with a convolutional neural network (CNN) trained from scratch.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://huggingface.co/spaces/Buzzy/emotion-recognition-app)
+[![Live Demo]([https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)](https://huggingface.co/spaces/Buzzy/emotion-recognition-app](https://buzyy-emotion-recognition-app.hf.space/?__theme=system&deep_link=3rEJ7eNeinE))
 
 > 🔬 This notebook was developed and executed using **Google Colab** for GPU acceleration and hosted on **GitHub**.  
 > 📎 Paper-based validation reference: *Goeleven et al., 2008* – [DOI:10.1080/02699930701626582](https://doi.org/10.1080/02699930701626582)
