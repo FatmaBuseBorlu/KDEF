@@ -80,15 +80,45 @@ The confusion matrix below illustrates the model's performance in classifying ea
 
 Below are randomly selected test samples, showing the actual vs predicted emotions:
 
-| Image                                      | True Label | Predicted     |
-|-------------------------------------------|------------|---------------|
-| ![sample 1](./docs/sample_1_disgust_disgust.png) | Disgust     | Disgust       |
-| ![sample 2](./docs/sample_1_sad_fear.png)       | Sad         | Fear 😬        |
-| ![sample 3](./docs/sample_2_fear_fear.png)      | Fear        | Fear          |
-| ![sample 4](./docs/sample_3_surprise_fear.png)  | Surprise    | Fear 😬        |
-| ![sample 5](./docs/sample_3_neutral_neutral.png)| Neutral      | Neutral       |
+<table>
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>True Label</th>
+      <th>Predicted</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./docs/sample_1_disgust_disgust.png" width="120"/></td>
+      <td>Disgust</td>
+      <td>Disgust</td>
+    </tr>
+    <tr>
+      <td><img src="./docs/sample_1_sad_fear.png" width="120"/></td>
+      <td>Sad</td>
+      <td>Fear 😬</td>
+    </tr>
+    <tr>
+      <td><img src="./docs/sample_2_fear_fear.png" width="120"/></td>
+      <td>Fear</td>
+      <td>Fear</td>
+    </tr>
+    <tr>
+      <td><img src="./docs/sample_3_surprise_fear.png" width="120"/></td>
+      <td>Surprise</td>
+      <td>Fear 😬</td>
+    </tr>
+    <tr>
+      <td><img src="./docs/sample_3_neutral_neutral.png" width="120"/></td>
+      <td>Neutral</td>
+      <td>Neutral</td>
+    </tr>
+  </tbody>
+</table>
 
 <sub>*(All examples were randomly selected and generated during model inference.)*</sub>
+
 
 ---
 
