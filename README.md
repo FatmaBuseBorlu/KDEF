@@ -78,14 +78,15 @@ The confusion matrix below illustrates the model's performance in classifying ea
 
 ## 🖼️ Example Predictions
 
-| Image | True Label | Predicted |
-|-------|------------|-----------|
-| ![happy](./docs/sample_happy.png) | Happy | Happy |
-| ![angry](./docs/sample_angry.png) | Angry | Angry |
-| ![surprise](./docs/sample_surprise.png) | Surprise | Fear 😬 |
+Below are randomly selected test samples, showing the actual vs predicted emotions:
 
-_(All examples generated during inference step in notebook)_
+| Image                                 | True Label | Predicted     |
+|--------------------------------------|------------|---------------|
+| ![sample 1](./docs/sample_1_Happy_Happy.png)   | Happy      | Happy         |
+| ![sample 2](./docs/sample_2_Surprise_Fear.png) | Surprise   | Fear 😬        |
+| ![sample 3](./docs/sample_3_Angry_Angry.png)   | Angry      | Angry         |
 
+<sub>*(All examples were randomly selected and generated during model inference.)*</sub>
 ---
 
 ## 🚀 How to Run
